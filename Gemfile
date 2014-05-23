@@ -35,15 +35,15 @@ group :development, :test do
   gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'pry'
 end
 
 group :test do
   gem 'capybara-webkit', '>= 1.0.0'
   gem 'database_cleaner'
-  gem 'shoulda-matchers'
+  gem 'rspec-rails'
   gem 'simplecov', require: false
-  gem 'timecop'
-  gem 'webmock'
+  gem 'factory_girl_rails'
 end
 
 gem 'pg'
